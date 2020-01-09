@@ -13,7 +13,7 @@ the CJK Unifonts project.
 
 Name:           %{fontname}-fonts
 Version:        0.2.20080216.1
-Release:        52%{?dist}
+Release:        53%{?dist}
 Summary:        Chinese Unicode TrueType font in Ming face
 
 Group:          User Interface/X
@@ -76,6 +76,9 @@ ln -s %{_fontdir}/ %{buildroot}%{catalogue}/%{name}
 %{catalogue}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.2.20080216.1-53
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.2.20080216.1-52
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
